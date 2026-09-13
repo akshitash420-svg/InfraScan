@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Admin Dashboard | InfraSense
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="/static/style.css">
+
+</head>
+
+
+<body class="admin-page">
+
+
+    <nav class="admin-nav">
+
+        <div class="admin-brand">
+
+            <div class="admin-logo">
+                IS
+            </div>
+
+            <span>
+                InfraScan
+            </span>
+
+        </div>
+
+
+        <div class="admin-nav-right">
+
+            <span>
+                Admin Portal
+            </span>
+
+            <button
+                onclick="logout()"
+                class="admin-logout">
+
+                Logout
+
+            </button>
+
+        </div>
+
+    </nav>
+
+
+
+    <main class="admin-main">
+
+
+        <section class="admin-welcome">
+
+            <div>
+
+                <span class="admin-label">
+                    ADMIN PORTAL
+                </span>
+
+                <h1>
+                    Issue Management
+                </h1>
+
+                <p>
+                    Review classroom issues reported by CRs.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="admin-stats">
+
+
+            <div class="admin-stat-card">
+
+                <span>
+                    Total Reports
+                </span>
+
+                <strong id="totalReports">
+                    0
+                </strong>
+
+            </div>
+
+
+            <div class="admin-stat-card">
+
+                <span>
+                    Pending
+                </span>
+
+                <strong id="pendingReports">
+                    0
+                </strong>
+
+            </div>
+
+
+            <div class="admin-stat-card">
+
+                <span>
+                    Awaiting Confirmation
+                </span>
+
+                <strong id="confirmationReports">
+                    0
+                </strong>
+
+            </div>
+
+
+            <div class="admin-stat-card">
+
+                <span>
+                    Resolved
+                </span>
+
+                <strong id="resolvedReports">
+                    0
+                </strong>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="admin-complaints">
+
+
+            <div class="admin-section-header">
+
+                <div>
+
+                    <h2>
+                        Reported Issues
+                    </h2>
+
+                    <p>
+                        Complaints submitted by Student / CR.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="admin-empty">
+
+                <div class="admin-empty-icon">
+                    ✓
+                </div>
+
+                <h3>
+                    No issues reported yet
+                </h3>
+
+                <p>
+                    New classroom complaints submitted by
+                    CRs will appear here.
+                </p>
+
+            </div>
+
+
+        </section>
+
+    </main>
+
+
+    <script src="/static/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfraSense</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="background">
+
+        <div class="container">
+
+            <div class="logo">IS</div>
+
+            <h1>InfraSense</h1>
+
+            <p class="tagline">
+                Report. Resolve. Confirm.
+            </p>
+
+            <p class="welcome-text">
+                Smart classroom issue reporting & tracking system
+            </p>
+
+            <button onclick="startApp()">
+                Get Started →
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html> -->

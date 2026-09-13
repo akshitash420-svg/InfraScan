@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Admin Login | InfraScan</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body class="login-page">
+
+    <div class="login-card">
+
+        <div class="login-brand">
+
+            <div class="login-logo">
+                IS
+            </div>
+
+            <span>InfraScan</span>
+
+        </div>
+
+
+        <div class="login-heading">
+
+            <span class="login-role">
+                ADMIN
+            </span>
+
+            <h1>Welcome back</h1>
+
+            <p>
+                Sign in to manage classroom issues.
+            </p>
+
+        </div>
+
+
+        <form id="adminLoginForm">
+
+            <div class="login-field">
+
+                <label for="adminId">
+                    Admin ID / Username
+                </label>
+
+                <input
+                    type="text"
+                    id="adminId"
+                    placeholder="Enter your admin ID"
+                    required>
+
+            </div>
+
+
+            <div class="login-field">
+
+                <label for="adminPassword">
+                    Password
+                </label>
+
+                <input
+                    type="password"
+                    id="adminPassword"
+                    placeholder="Enter your password"
+                    required>
+
+            </div>
+
+
+            <div class="login-options">
+
+                <label class="remember">
+                    <input type="checkbox">
+                    Remember me
+                </label>
+
+                <a href="#" onclick="return false;">
+                    Forgot password?
+                </a>
+
+            </div>
+
+
+            <button
+                type="submit"
+                class="login-submit">
+
+                Sign In
+                <span>→</span>
+
+            </button>
+
+        </form>
+
+
+        <div class="login-footer">
+
+            <span>🔒 Secure access</span>
+
+            <span>Admin Portal</span>
+
+        </div>
+
+    </div>
+
+
+    <button
+        class="back-role"
+        onclick="window.location.href='role.html'">
+
+        ← Back to role selection
+
+    </button>
+
+
+    <script src="/static/script.js"></script>
+
+</body>
+
+</html>
