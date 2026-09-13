@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>InfraSense | Student Login</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <main class="login-page">
+
+        <div class="login-box">
+
+            <div class="login-brand">
+                <div class="brand-logo">IS</div>
+                <span>InfraScan</span>
+            </div>
+
+
+            <div class="login-heading">
+
+                <div class="login-role">
+                    STUDENT / CR
+                </div>
+
+                <h1>Welcome back</h1>
+
+                <p>
+                    Sign in to report and track classroom issues.
+                </p>
+
+            </div>
+
+
+            <form id="studentLoginForm">
+
+                <label for="username">
+                    Student ID / Username
+                </label>
+
+                <input
+                    type="text"
+                    id="username"
+                    placeholder="Enter your student ID"
+                    required>
+
+
+                <label for="password">
+                    Password
+                </label>
+
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Enter your password"
+                    required>
+
+
+                <div class="login-options">
+
+                    <label class="remember">
+                        <input type="checkbox">
+                        Remember me
+                    </label>
+
+                    <a href="#" onclick="return false;">
+                        Forgot password?
+                    </a>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="login-btn">
+
+                    Sign In
+                    <span>→</span>
+
+                </button>
+
+            </form>
+
+
+            <div class="login-footer">
+
+                <span>🔒 Secure access</span>
+
+                <span>Student / CR Portal</span>
+
+            </div>
+
+        </div>
+
+
+        <p
+            class="back-role"
+            onclick="window.location.href='role.html'">
+
+            ← Back to role selection
+
+        </p>
+
+    </main>
+
+
+    <script src="/static/script.js"></script>
+
+</body>
+
+</html>
